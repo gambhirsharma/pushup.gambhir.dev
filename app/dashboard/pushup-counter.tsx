@@ -263,7 +263,7 @@ export default function PushUpCounter({ onPushUpComplete }: PushUpCounterProps) 
       </div>
 
       <div className="text-center">
-        <h2 className="text-4xl font-bold mb-2">{count}</h2>
+        <h2 className="text-4xl font-bold mb-2 text-black">{count}</h2>
         <p className="text-lg text-gray-600">Push-ups</p>
         <p className="text-sm text-gray-500 mt-2">
           {isDown ? '⬇️ Down Position' : '⬆️ Up Position'}
